@@ -6,7 +6,7 @@
         {
            // Console.WriteLine("Hello, World!");
             Pattern pattern = new Pattern();
-            if (pattern.validateEmail("abc.xyz@bl.co.in"))
+            if (pattern.validatePhoneNumber("91 7894561235ff"))
             {
                 Console.WriteLine("Valid");
             }

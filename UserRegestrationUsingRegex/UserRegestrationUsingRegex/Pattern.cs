@@ -10,9 +10,9 @@ namespace UserRegestrationUsingRegex
    
     internal class Pattern
     {
-        public static string Regex_Rule = "^[A-Za-z0-9]{3,}([.][a-zA-z]+)?[@][A-Za-z]+[.][A-Za-z]{2,3}([.][a-zA-Z]{2})?$";
+        public static string Regex_Rule = "^[+]?[0-9]{2}[ ][0-9]{10}$";
 
-        public bool validateEmail(string inputString)
+        public bool validatePhoneNumber(string inputString)
         {
             return Regex.IsMatch(inputString, Regex_Rule);
         }
