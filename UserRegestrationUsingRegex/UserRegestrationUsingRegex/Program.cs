@@ -4,22 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
-           // string firstName = "Prachi";
-            string lastName = "kale";
-            if (Pattern.ValidateString(lastName))
+           // Console.WriteLine("Hello, World!");
+            Pattern pattern = new Pattern();
+            if (pattern.validateEmail("abc.xyz@bl.co.in"))
             {
-                Console.WriteLine("valid");
+                Console.WriteLine("Valid");
             }
             else
             {
-                Console.WriteLine("invalid");
+                Console.WriteLine("Invalid");
             }
-            Console.ReadKey();
-
-
-
-
         }
 
     }
