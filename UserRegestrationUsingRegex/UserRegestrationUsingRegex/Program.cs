@@ -6,7 +6,7 @@
         {
            // Console.WriteLine("Hello, World!");
             Pattern pattern = new Pattern();
-            if (pattern.validatePhoneNumber("91 7894561235ff"))
+            if (pattern.validatePassword("Prachiii1234&"))
             {
                 Console.WriteLine("Valid");
             }
@@ -14,6 +14,8 @@
             {
                 Console.WriteLine("Invalid");
             }
+
+           
         }
 
     }
